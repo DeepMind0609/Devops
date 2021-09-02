@@ -1,4 +1,4 @@
 FROM ubuntu
-RUN sudo apt-get update 
-RUN sudo apt-get insall apache2
-ADD ./index.html /var/html/
+RUN  apt-get update 
+RUN  apt-get insall apache2
+ADD  ./index.html /var/html/
